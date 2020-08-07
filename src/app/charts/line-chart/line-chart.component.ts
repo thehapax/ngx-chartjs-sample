@@ -17,7 +17,7 @@ export class LineChartComponent implements OnInit {
     datasets: [
       {
         label: 'My First Dataset',
-        data: [65, 59, 80, 81, 56, 55, 40],
+        data: [65, 59, 80, 81, 56, 75, 65],
         fill: false,
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
