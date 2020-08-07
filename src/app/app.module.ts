@@ -3,14 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LineChartComponent } from './charts/line-chart/line-chart.component';
+
+import { ChartjsModule } from '@ctrl/ngx-chartjs';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartjsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
